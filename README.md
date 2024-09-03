@@ -37,7 +37,7 @@ We are planning to build a tool that will grade students automatically by analyz
 	- View of under performing students(daily and overall) - Leaderboard
 	- Access to individual student progress
 	- Ability to edit the marks awarded
- - Can set and extend deadlines of assignments
+  - Can set and extend deadlines of assignments
 
 3. Student's View:
 	- Date, Task, Score, Comment (justification for given score/feedback)
