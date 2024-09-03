@@ -37,14 +37,14 @@ We are planning to build a tool that will grade students automatically by analyz
 	- View of under performing students(daily and overall) - Leaderboard
 	- Access to individual student progress
 	- Ability to edit the marks awarded
-  - Can set and extend deadlines of assignments
+  	- Can set and extend deadlines of assignments
 
 3. Student's View:
 	- Date, Task, Score, Comment (justification for given score/feedback)
 	- Personal performance history - Leaderboard
 	- View of daily and aggregated leaderboard
 	- Input field for link of github repo
- - Student can re-submit assignment
+ 	- Student can re-submit assignment
 
 4. Data collection and processing:
 	- Github data collection for each student daily
@@ -62,5 +62,6 @@ We are planning to build a tool that will grade students automatically by analyz
 - GPT can hallucinate. We will implement RAG to tackle this
 - Implement subject-wise filtering(like right now we have OS and personal project path in dev course)
 - Implement more detailed analysis.
-- Teacher can specify custom prompt for grading.
+- Teacher can specify custom prompt for grading.'
+- Implement a functionality for teacher to divide student into different batches and define assignments for them
 
