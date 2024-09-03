@@ -27,7 +27,7 @@ We are planning to build a tool that will grade students automatically by analyz
 
 1. Commit Evaluation System:
 	-  `what is a bad commit?` - It has context dependent definition which includes 
-		-> Any commit not relevant to the subject
+		-> Any commit not relevant to the subject. Even though llm can get the subject context automatically.
 		-> Evaluation on the progress of daily task(By task, I refer to what instructor has taught during the class)
 	- Get commit data and define a daily task to GPT
 	- Let GPT do its magic(return score and justification for the given score)
@@ -36,11 +36,13 @@ We are planning to build a tool that will grade students automatically by analyz
 	- View of under performing students(daily and overall) - Leaderboard
 	- Access to individual student progress
 	- Ability to edit the marks awarded
+ - Can set and extend deadlines of assignments
 3. Student's View:
 	- Date, Task, Score, Comment (justification for given score/feedback)
 	- Personal performance history - Leaderboard
 	- View of daily and aggregated leaderboard
 	- Input field for link of github repo
+ - Student can re-submit assignment
 4. Data collection and processing:
 	- Github data collection for each student daily
 	- Integration with llm's API for commit evaluation
@@ -50,10 +52,11 @@ We are planning to build a tool that will grade students automatically by analyz
 	- Backend: ExpressJS
 	- Database: MongoDB
 	- APIs: GitHub and OpenAI
-	- Hosting: AWS
+	- Hosting: netlify
 ## Future Scope
 
 - GPT can hallucinate. We will implement RAG to tackle this
 - Implement subject-wise filtering(like right now we have OS and personal project path in dev course)
 - Implement more detailed analysis.
+- Teacher can specify custom prompt for grading.
 
