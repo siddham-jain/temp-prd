@@ -31,30 +31,34 @@ We are planning to build a tool that will grade students automatically by analyz
 		-> Evaluation on the progress of daily task(By task, I refer to what instructor has taught during the class)
 	- Get commit data and define a daily task to GPT
 	- Let GPT do its magic(return score and justification for the given score)
+
 2. Teacher's View:
 	- A dashboard to input daily tasks
 	- View of under performing students(daily and overall) - Leaderboard
 	- Access to individual student progress
 	- Ability to edit the marks awarded
  - Can set and extend deadlines of assignments
+
 3. Student's View:
 	- Date, Task, Score, Comment (justification for given score/feedback)
 	- Personal performance history - Leaderboard
 	- View of daily and aggregated leaderboard
 	- Input field for link of github repo
  - Student can re-submit assignment
+
 4. Data collection and processing:
 	- Github data collection for each student daily
 	- Integration with llm's API for commit evaluation
 	- Score calculation and storage
+
 5. Technical Requirements:
 	- Frontend: React JS
 	- Backend: ExpressJS
 	- Database: MongoDB
 	- APIs: GitHub and OpenAI
 	- Hosting: netlify
-## Future Scope
 
+## Future Scope
 - GPT can hallucinate. We will implement RAG to tackle this
 - Implement subject-wise filtering(like right now we have OS and personal project path in dev course)
 - Implement more detailed analysis.
