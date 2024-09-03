@@ -33,12 +33,12 @@ We are planning to build a tool that will grade students automatically by analyz
 	- Let GPT do its magic(return score and justification for the given score)
 2. Teacher's View:
 	- A dashboard to input daily tasks
-	- View of under performing students(daily and overall)
+	- View of under performing students(daily and overall) - Leaderboard
 	- Access to individual student progress
 	- Ability to edit the marks awarded
 3. Student's View:
 	- Date, Task, Score, Comment (justification for given score/feedback)
-	- Personal performance history
+	- Personal performance history - Leaderboard
 	- View of daily and aggregated leaderboard
 	- Input field for link of github repo
 4. Data collection and processing:
